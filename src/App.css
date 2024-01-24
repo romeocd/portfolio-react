@@ -90,7 +90,13 @@ body, html {
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
-
+/* Resume Component */
+.resume {
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: left;
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
