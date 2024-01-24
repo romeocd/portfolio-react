@@ -10,6 +10,20 @@ body, html {
   color: #333;
   line-height: 1.6;
 }
+/* App Component */
+.App {
+  text-align: center;
+}
+
+/* Header Component */
+.header {
+  background-color: #282c34;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 #root {
   max-width: 1280px;
