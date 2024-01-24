@@ -70,6 +70,26 @@ body, html {
   max-width: 100%;
   height: auto;
 }
+/* Contact Component */
+.contact-form {
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.contact-form button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
 
 #root {
   max-width: 1280px;
