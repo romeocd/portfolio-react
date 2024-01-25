@@ -4,39 +4,34 @@
   box-sizing: border-box;
 }
 
-body, html {
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  line-height: 1.6;
-}
-/* App Component */
-.App {
-  text-align: center;
-}
-
 /* Header Component */
-.header {
-  background-color: #282c34;
-  color: white;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header nav {
-  margin-top: 1rem;
+.header h1 {
+  font-size: 2rem;
 }
 
-.header nav a {
-  color: white;
-  margin: 0 10px;
+
+.header nav a.active {
+  border-bottom: 2px solid #61dafb;
+}
+
+nav {
+  display: block; /* Aligns links horizontally */
+  justify-content: center; /* Center the links, adjust as needed */
+}
+
+nav a {
+  color: #282c34;
+  margin: 0px; /* Increased margin */
+  padding: 0 20px; /* Increased padding */
   text-decoration: none;
   font-size: 1rem;
 }
 
-.header nav a.active {
-  border-bottom: 2px solid #61dafb;
+/* Responsive Design for Header Links */
+@media (max-width: 600px) {
+  .header nav a {
+    margin: 0 10px; /* Adjust margin for smaller screens */
+  }
 }
 
 /* AboutMe Component */
@@ -100,10 +95,17 @@ body, html {
 
 /* Footer Component */
 .footer {
-  background-color: #282c34;
   color: white;
   padding: 1rem;
   text-align: center;
+}
+.footer a{
+  color: #282c34;
+  margin: 0px;
+  padding: 0 20px;
+}
+.footer a.active {
+  border-bottom: 2px solid #61dafb; /* Style for active link */
 }
 /* Media Queries for Responsive Design */
 @media (min-width: 768px) {
