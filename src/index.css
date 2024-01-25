@@ -1,3 +1,5 @@
+/* Update index.css to have polished style in conjunction with app.css */
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -13,6 +15,7 @@
   -moz-osx-font-smoothing: grayscale; 
 }
 
+/* Link styles */
 a {
   font-weight: 500;
   color: #646cff;
@@ -22,6 +25,7 @@ a:hover {
   color: #535bf2;
 }
 
+/* Body Styles */
 body {
   margin: 0;
   display: flex;
@@ -30,11 +34,33 @@ body {
   min-height: 100vh;
 }
 
-h1 {
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
   font-size: 3.2em;
   line-height: 1.1;
 }
 
+h2 {
+  font-size: 2.4em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+/* Button Styles */
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -43,26 +69,48 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
+  color: #ffffff; /* Ensure text is readable */
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: border-color 0.25s, background-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Dark and Light Mode Specific Styles */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
+    color: #213547; /* Adjust text color for light mode */
   }
+
+  button:hover {
+    border-color: #747bff;
+  }
+}
+
+/* Additional Global Styles */
+p, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+}
+
+/* Set core body and heading sizes */
+body {
+  font-size: 1rem;
+  line-height: 1.6;
 }
