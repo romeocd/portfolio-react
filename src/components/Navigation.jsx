@@ -5,7 +5,7 @@ const Navigation = () => {
     const [activeSection, setActiveSection ] = useState('About Me');
 
     const navigationItems = [
-        { name: 'About Me', path: '/about-me' },
+        { name: 'About Me', path: '/aboutme' },
         { name: 'Portfolio', path: '/portfolio' },
         { name: 'Contact', path: '/contact' },
         { name: 'Resume', path: '/resume' }
