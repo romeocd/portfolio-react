@@ -7,8 +7,8 @@ const AboutMe = () => {
       <div className="bio">
         <h2>About Me</h2>
         <p>
-        Hello! I'm Romeo Dumlao and welcome to my personal portfolio! I am a beginner web developer and currently learning to be a Full Stack Web Developer under the Rutgers Coding Bootcamp program.
-I will be making updates to this page as I learn and grow as a developer. Please click on my Portfolio to see my projects so far.
+        Hello! I'm Romeo Dumlao and welcome to my personal portfolio! I am currently learning to be a Full Stack Web Developer under the Rutgers Coding Bootcamp program.
+I will be making updates to this page as I learn and grow as a developer. Please click on the Portfolio link above to see my projects so far.
 If you have any questions, please don't hesitate to contact me!
         </p>
         {/* Add more personal details or sections as needed */}
