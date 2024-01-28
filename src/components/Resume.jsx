@@ -3,7 +3,8 @@ import Card from './Card';
 
 const Resume = () => {
   // List of your proficiencies
-  const proficiencies = ['MERN','JavaScript', 'React', 'CSS', 'HTML', 'Git', 'Node.js', 'Express.js', 'APIs', 'MongoDB', 'SQL', 'Progressive Web Applications'];
+  const proficiencies = ['MERN','JavaScript', 'React', 'CSS', 'HTML', 'Git', 'Node.js', 'Express.js', 'APIs',
+   'MongoDB', 'SQL', 'Progressive Web Applications','GraphQL'];
 
   return (
     <Card>
