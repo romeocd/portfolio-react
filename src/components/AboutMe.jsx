@@ -1,7 +1,9 @@
 import React from 'react';
+import Card from './Card';
 
 const AboutMe = () => {
   return (
+    <Card>
     <div className="about-me">
       <img src="./src/assets/images/profilepic.jpg" alt="Romeo Dumlao Jr." className="profile-picture" />
       <div className="bio">
@@ -14,6 +16,7 @@ If you have any questions, please don't hesitate to contact me!
         {/* Add more personal details or sections as needed */}
       </div>
     </div>
+    </Card>
   );
 };
 

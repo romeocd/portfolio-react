@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Card from './Card';
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -32,6 +33,7 @@ const Contact = () => {
   };
 
   return (
+    <Card>
     <div className="contact-form">
       <form onSubmit={handleSubmit}>
         <label>
@@ -69,6 +71,7 @@ const Contact = () => {
         <button type="submit">Send</button>
       </form>
     </div>
+    </Card>
   );
 };
 

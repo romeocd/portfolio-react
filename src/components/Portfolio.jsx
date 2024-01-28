@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from './Project';
+import Card from './Card';
 
 const Portfolio = () => {
     const projects = [
@@ -48,6 +49,7 @@ const Portfolio = () => {
     ];
 
     return (
+      <Card>
         <div className="portfolio">
           {projects.map(project => (
             <Project 
@@ -60,6 +62,7 @@ const Portfolio = () => {
             />
           ))}
         </div>
+      </Card>
       );
     };
 

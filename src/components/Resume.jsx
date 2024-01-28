@@ -1,10 +1,12 @@
 import React from 'react';
+import Card from './Card';
 
 const Resume = () => {
   // List of your proficiencies
   const proficiencies = ['JavaScript', 'React', 'CSS', 'HTML', 'Node.js', 'Git', 'Other Skills'];
 
   return (
+    <Card>
     <div className="resume">
       <a href="/path/to/your/resume.pdf" download="YourName_Resume">
         Download Resume
@@ -16,6 +18,7 @@ const Resume = () => {
         ))}
       </ul>
     </div>
+    </Card>
   );
 };
 
