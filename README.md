@@ -36,6 +36,7 @@ The personal portfolio web application is designed to showcase a collection of w
 * Responsive Design: The website is designed to be responsive, meaning it will adjust its layout and content to fit the screen size of various devices, from desktops to mobile phones.
 
 ## Screenshots
+![Deployed Screenshot](image.png)
 
 ## Deployed Application
 
