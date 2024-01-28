@@ -48,9 +48,9 @@ nav a {
 } 
 
 .profile-picture {
-  width: 300px;
-  height: 150px;
-  border-radius: 50%;
+  width: 150px; /* Set a specific width */
+  height: auto; /* Height is set to auto to maintain aspect ratio */
+  border-radius: 50%; /* Circular image */
   margin-bottom: 20px;
   border: 3px solid #2c3e50;
 }
