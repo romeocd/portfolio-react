@@ -73,6 +73,17 @@ nav a {
   max-width: 100%;
   height: auto;
 }
+
+.project-links a {
+  display: block; /* Makes each link a block element, appearing on separate lines */
+  margin-bottom: 10px; /* Adds some space below each link */
+  color: #007bff; /* Example link color, adjust as needed */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.project-links a:hover {
+  text-decoration: underline; /* Style for hover state */
+}
 /* Contact Component */
 .contact-form {
   background-color: white;

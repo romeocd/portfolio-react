@@ -8,12 +8,12 @@ const Project = ({ title, imageUrl, description, liveUrl, githubUrl }) => {
                 <h3>{title}</h3>
                 <p>{description}</p>
                 <div className="project-links">
-                    <a href={liveUrl} target="_blank" rel="noopener noreferrer">Live Demo</a>
-                    <a href={githubUrl} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                    <a href={liveUrl} target="_blank" rel="noopener noreferrer" className="live-demo">Live Demo</a>
+                    <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="github-repo">GitHub Repo</a>
                 </div>
             </div>
         </div>
-    );
+    );  
 };
 
 export default Project;
