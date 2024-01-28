@@ -84,6 +84,8 @@ nav a {
 .project-links a:hover {
   text-decoration: underline; /* Style for hover state */
 }
+
+
 /* Contact Component */
 .contact-form {
   background-color: white;

@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Project = ({ title, imageUrl, description, liveUrl, githubUrl }) => {
+    const [isEnlarged, setIsEnlarged] = useState(false);
+
+    const toggleImageSize = () => setIsEnlarged(!isEnlarged);
+
     return (
         <div className="project">
-            <img src={imageUrl} alt={`Project ${title}`} />
+            <img 
+                src={imageUrl} 
+                alt={`Project ${title}`} 
+                className="project-images"
+                onClick={toggleImageSize}
+                style={{ 
+                    cursor: 'pointer',
+                    transform: isEnlarged ? 'scale(3)' : 'scale(1)',
+                    transition: 'transform 0.3s ease'
+                }}
+            />
             <div className="project-info">
                 <h3>{title}</h3>
                 <p>{description}</p>
